@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log("False");
     }
 
-    // Opg. 4
+    // Opg. 4.
 
     //Opg. 4, a, b)
 
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
     findCat("Bagheera");
     findCat("Salem");
 
-    // Opg. 5
+    // Opg. 5.
 
     // Bruger .map() til at oprette et nyt array, hvor hvert tal i numbersArray er ganget med 3
     let multipliedArray = numbersArray.map(function (num) {
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Udskriver det nye array i konsollen
     console.log(multipliedArray);
 
-    // Opg. 6
+    // Opg. 6.
 
     // Bruger .join() til at kombinere alle elementerne i arrayet til én enkelt streng uden nogen separator (ingen mellemrum eller komma)
     let dogsString = dogsArray.join('');  // Tomt string som separator betyder, at elementerne sættes sammen uden mellemrum
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Udskriver den samlede streng i konsollen
     console.log(dogsString);
 
-    // Opg. 7
+    // Opg. 7.
 
     // Opretter et array med forskellige frugter
     let fruitsArray = ["Banana", "Orange", "Pineapple", "Mango", "Plum", "Apricot"];
